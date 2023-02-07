@@ -1,0 +1,70 @@
+body{
+    background-color: rgb(41, 201, 161);
+}
+.buttons {
+    display: grid;
+    flex-direction: column;
+    display: inline-block;
+}
+button{
+    background-color: rgb(41, 201, 161);
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+.home{
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    margin-right: 200px;
+    margin-left: 20px;
+}
+.link{
+    margin-right: 30px;
+    margin-left: 30px;
+}
+link:hover{
+    color: red;
+}
+.icons{
+    margin-left: 80px;
+    margin-right: 85px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.textbox{
+    margin-top: 20px;
+    border-top: 5px solid black;
+    border-left: 5px solid black;
+    display: flex;
+    flex-direction: row;
+}
+.box1{
+    border-right: 10px solid black;
+}
+.box2{
+    border-right: 5px solid black;
+}
+h1{
+    text-align: center;
+    font-style: italic;
+}
+p{
+    text-align: center;
+    font-style: italic;
+}
+.box1:hover{
+    background-color: red;
+    color: yellow;
+}
+.box2:hover{
+    background-color: red;
+    color: yellow;
+}
+footer{
+    border:5px solid black;
+}
+h2{
+    text-align: center;
+}
